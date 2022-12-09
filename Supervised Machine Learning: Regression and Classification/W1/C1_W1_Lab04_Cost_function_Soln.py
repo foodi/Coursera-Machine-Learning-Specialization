@@ -29,7 +29,7 @@ import numpy as np
 get_python_version().run_line_magic('matplotlib', 'widget')
 import matplotlib.pyplot as plt
 
-#plt.style.use('seaborn-talk')
+plt.style.use('seaborn-talk')
 
 
 # ## Problem Statement
