@@ -20,13 +20,16 @@
 # - local plotting routines in the lab_utils_uni.py file in the local directory
 
 # In[1]:
-
+import sys
+sys.path.append('/workspaces/Coursera-Machine-Learning-Specialization/src')
+from lab_utils_uni import plt_intuition, plt_stationary, plt_update_onclick, soup_bowl
+from sysconfig import get_python_version
 
 import numpy as np
-get_ipython().run_line_magic('matplotlib', 'widget')
+get_python_version().run_line_magic('matplotlib', 'widget')
 import matplotlib.pyplot as plt
-from lab_utils_uni import plt_intuition, plt_stationary, plt_update_onclick, soup_bowl
-plt.style.use('./deeplearning.mplstyle')
+
+plt.style.use('tableau-colorblind10')
 
 
 # ## Problem Statement
